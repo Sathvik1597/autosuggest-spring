@@ -1,3 +1,20 @@
+body{
+    margin: 0px;
+}
 hi{
     color: red;
+}
+
+.navbar{
+    border-style: solid;
+    border-width: 1px;
+    border-color: crimson;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
 }
