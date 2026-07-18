@@ -1,7 +1,8 @@
 body{
     margin: 0px;
+    background-color: rgb(109, 105, 221);
 }
-hi{
+h1{
     color: red;
 }
 
@@ -11,10 +12,46 @@ hi{
     border-color: crimson;
     padding: 20px;
     text-align: center;
+    background-color: rgb(48, 185, 87);
 }
 
 .navbar a{
     padding: 20px;
+    margin: 10px;
     text-decoration: none;
-    color: black;
+    font-style: italic;
+}
+
+.navbar a:hover{
+    color: rgb(26, 169, 122);
+    background-color: teal;
+}
+
+.card{
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card button{
+    width: 80%;
+    padding: 5px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#button2{
+    margin-top: 0px;
 }
